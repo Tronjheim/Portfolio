@@ -2,6 +2,7 @@ import React from 'react'
 import Gitl from '../assets/github.png'
 
 
+
 function Work() {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>

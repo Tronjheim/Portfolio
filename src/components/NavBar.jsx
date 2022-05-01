@@ -45,7 +45,7 @@ const NavBar =() => {
 
         {/*Hamburger*/}
             <div onClick={handleClick} className='md:hidden z-10'>
-                {!nav ? <FaBars/> : <FaTimes/>}
+                {!nav ? <FaBars size={50}/> : <FaTimes/>}
             </div>
 
         {/*Mobile menu*/}
@@ -59,7 +59,7 @@ const NavBar =() => {
               </li>
               <li className='py-6 text-4xl'>
               {' '}
-                <Link onClick={handleClick} to="about"skills={true} duration={500}>Skills</Link>
+                <Link onClick={handleClick} to="skills"skills={true} duration={500}>Skills</Link>
               </li>
               <li className='py-6 text-4xl'>
               {' '}
