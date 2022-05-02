@@ -1,5 +1,7 @@
 import React from 'react'
-import Gitl from '../assets/github.png'
+import Gitl from '../assets/weather.png'
+import Todo from '../assets/todo.png'
+import Calcu from '../assets/calcu.png'
 
 
 
@@ -32,8 +34,9 @@ function Work() {
                       </div>
                   </div>
               </div>
+              <br />
               <div
-              style={{background:`url(${Gitl})`}}
+              style={{background:`url(${Todo})`}}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   
                   {/*Hover Effects */}
@@ -49,8 +52,9 @@ function Work() {
                       </div>
                   </div>
               </div>
+              <br />
               <div
-              style={{background:`url(${Gitl})`}}
+              style={{background:`url(${Calcu})`}}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   
                   {/*Hover Effects */}

@@ -17,8 +17,8 @@ const About = () => {
                     <p>Hi I'm Leonel, nice to meet you. Please take a look arround.</p>
                 </div>
                 <div>
-                    <p>I am passionate about building excellent software that improves
-                      the lives of those around me. In my job I emphasize empathy and teamwork </p>
+                    <p>I am passionate about technology and enjoy building great software that improves
+                       the lives of those around me. I like teamwork and pay attention to details.</p>
                 </div>
             </div>
       </div>
