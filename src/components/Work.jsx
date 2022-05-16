@@ -2,6 +2,7 @@ import React from 'react'
 import Gitl from '../assets/weather.png'
 import Todo from '../assets/todo.png'
 import Calcu from '../assets/calcu.png'
+import Fin from '../assets/finance.png'
 
 
 
@@ -15,7 +16,7 @@ function Work() {
           </div>
 
             {/*Container*/}
-          <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+          <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
               {/*Grid Item*/}
               <div
               style={{background:`url(${Gitl})`}}
@@ -30,11 +31,10 @@ function Work() {
                           <a href="https://github.com/Tronjheim/weather-app" target="_blank">
                           <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                           </a>
-                          
                       </div>
                   </div>
               </div>
-              <br />
+              
               <div
               style={{background:`url(${Todo})`}}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -48,11 +48,11 @@ function Work() {
                           <a href="https://github.com/Tronjheim/todo-app" target="_blank">
                           <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                           </a>
-                          
                       </div>
+                      
                   </div>
               </div>
-              <br />
+              
               <div
               style={{background:`url(${Calcu})`}}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -65,8 +65,23 @@ function Work() {
                       <div className='pt-8 text-center'>
                           <a href="https://github.com/Tronjheim/compound-interest-calculator"target="_blank">
                           <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                          </a>
-                          
+                          </a> 
+                      </div>
+                  </div>
+              </div>
+              <div
+              style={{background:`url(${Fin})`}}
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                  
+                  {/*Hover Effects */}
+                  <div className='opacity-0 group-hover:opacity-100'>
+                      <span className='text-2xl font-bold text-white tracking-wider'>
+                      Finance Page
+                      </span>
+                      <div className='pt-8 text-center'>
+                          <a href="https://github.com/Tronjheim/finance"target="_blank">
+                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                          </a> 
                       </div>
                   </div>
               </div>
