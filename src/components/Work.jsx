@@ -1,7 +1,7 @@
 import React from 'react'
-import Gitl from '../assets/weather.png'
-import Todo from '../assets/todo.png'
-import Calcu from '../assets/calcu.png'
+import Dun from '../assets/3D.png'
+import Demo from '../assets/2D.png'
+import Weather from '../assets/weather.png'
 import Fin from '../assets/finance.png'
 
 
@@ -19,34 +19,34 @@ function Work() {
           <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
               {/*Grid Item*/}
               <div
-              style={{background:`url(${Gitl})`}}
+              style={{background:`url(${Dun})`}}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   
                   {/*Hover Effects */}
                   <div className='opacity-0 group-hover:opacity-100'>
                       <span className='text-2xl font-bold text-white tracking-wider'>
-                        Weather Application
+                        Dungeon Demo
                       </span>
                       <div className='pt-8 text-center'>
-                          <a href="https://github.com/Tronjheim/weather-app" target="_blank">
-                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                          <a href="https://tronjheim.itch.io/dungeon" target="_blank">
+                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Play</button>
                           </a>
                       </div>
                   </div>
               </div>
               
               <div
-              style={{background:`url(${Todo})`}}
+              style={{background:`url(${Demo})`}}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   
                   {/*Hover Effects */}
                   <div className='opacity-0 group-hover:opacity-100'>
                       <span className='text-2xl font-bold text-white tracking-wider'>
-                        Todo App
+                        Demo 2D
                       </span>
                       <div className='pt-8 text-center'>
-                          <a href="https://github.com/Tronjheim/todo-app" target="_blank">
-                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                          <a href="https://tronjheim.itch.io/demo" target="_blank">
+                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Play</button>
                           </a>
                       </div>
                       
@@ -54,17 +54,17 @@ function Work() {
               </div>
               
               <div
-              style={{background:`url(${Calcu})`}}
+              style={{background:`url(${Weather})`}}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   
                   {/*Hover Effects */}
                   <div className='opacity-0 group-hover:opacity-100'>
                       <span className='text-2xl font-bold text-white tracking-wider'>
-                      Compound interest calculator
+                      Wheather App 
                       </span>
                       <div className='pt-8 text-center'>
-                          <a href="https://github.com/Tronjheim/compound-interest-calculator"target="_blank">
-                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                          <a href="https://github.com/Tronjheim/weather-app"target="_blank">
+                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'> Git Code</button>
                           </a> 
                       </div>
                   </div>
@@ -80,7 +80,7 @@ function Work() {
                       </span>
                       <div className='pt-8 text-center'>
                           <a href="https://github.com/Tronjheim/finance"target="_blank">
-                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Git Code</button>
                           </a> 
                       </div>
                   </div>
